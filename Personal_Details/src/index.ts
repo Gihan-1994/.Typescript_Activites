@@ -77,8 +77,8 @@ function Display_FormData(formDataArray: object[]): void {
     }
 // using enums for store images
     enum FoodImages {
-        pizza = "https://example.com/images/pizza.jpg",
-        burger = "https://example.com/images/burger.jpg",
+        pizza = "https://cdn.pixabay.com/photo/2023/08/12/02/42/ai-generated-8184596_640.png",
+        burger = "https://cdn.pixabay.com/photo/2012/04/13/01/51/hamburger-31775_640.png",
         pasta = "https://example.com/images/pasta.jpg",
         salad = "https://example.com/images/salad.jpg",
         iceCream = "https://example.com/images/icecream.jpg",
