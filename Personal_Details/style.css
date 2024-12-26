@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    height: auto;
+}
+.main-container{
+    display: grid;
+     flex-direction: column;
+      align-items: center;
+       gap: 10px;
+       padding: 10px;
+}
+.container{
+    background-color: #7fa4c4;
+    margin: 10px auto; /* Centers the container */
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Use percentage width for responsiveness */
+    max-width: 800px; /* Limit maximum width to 800px */
+    font-size: larger;
+    flex-direction: column;
+   
+    text-align: center;
+}
+
+.form-container {
+    display: block;
+    background-color: #ffffff;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container input, 
+.form-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container .checkbox-group {
+    margin-bottom: 15px;
+}
+
+.form-container .checkbox-group label {
+    font-weight: normal;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.entry-data {
+    display: none;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: #e7f7e7;
+    border: 1px solid #d3e5d3;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Style for the individual data entries inside entry-data */
+.entry-data p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    padding: 15px;
+    
+}
+.entry-label {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.entry-label:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}

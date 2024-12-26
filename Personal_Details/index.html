@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-container" >
+    
+    <div class="container" > 
+        
+        <h1>Personal Information Form</h1>  
+    </div>
+    
+    <div class="form-container"  style="max-width: 800px; margin: 20px auto;">
+        <form action="/submit" method="POST">
+           \
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+         \
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" required>
+
+       \
+            <label for="color">Preferred Color:</label>
+            <select id="color" name="color" required>
+                <option value="" disabled selected>Select a color</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="black">Black</option>
+            </select>
+\
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+\>
+            <label>Food Items:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="pizza" name="food[]" value="pizza">
+                <label for="pizza">Pizza</label><br>
+
+                <input type="checkbox" id="burger" name="food[]" value="burger">
+                <label for="burger">Burger</label><br>
+
+                <input type="checkbox" id="pasta" name="food[]" value="pasta">
+                <label for="pasta">Pasta</label><br>
+
+                <input type="checkbox" id="salad" name="food[]" value="salad">
+                <label for="salad">Salad</label><br>
+
+                <input type="checkbox" id="icecream" name="food[]" value="icecream">
+                <label for="icecream">Ice Cream</label><br>
+                <div>
+                    <button type="button" id="addButton">Add</button>
+                </div>
+                
+
+            </div>
+
+            \
+            <button type="button" id="submit">Submit</button>
+            
+        </form>
+    </div>
+</div>
+
+    
+<div class="result-container" style="max-width: 800px; margin: 20px auto; display: none;">
+    <h2>Submitted Information:</h2>
+    
+</div>
+</div>
+
+</body>
+<script src="./dist/index.js"></script>
+</html>
