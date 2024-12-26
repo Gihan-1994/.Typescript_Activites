@@ -79,10 +79,10 @@ function Display_FormData(formDataArray: object[]): void {
     enum FoodImages {
         pizza = "https://cdn.pixabay.com/photo/2023/08/12/02/42/ai-generated-8184596_640.png",
         burger = "https://cdn.pixabay.com/photo/2012/04/13/01/51/hamburger-31775_640.png",
-        pasta = "https://example.com/images/pasta.jpg",
-        salad = "https://example.com/images/salad.jpg",
-        iceCream = "https://example.com/images/icecream.jpg",
-        default = "https://example.com/images/default.jpg" 
+        pasta = "https://cdn.pixabay.com/photo/2018/07/18/19/12/pasta-3547078_1280.jpg",
+        salad = "https://cdn.pixabay.com/photo/2022/12/10/12/35/vegetables-7647062_640.jfif",
+        iceCream = "https://cdn.pixabay.com/photo/2021/10/30/12/49/russian-salad-6754243_640.jpg",
+        default = "https://cdn.pixabay.com/photo/2023/11/26/13/07/lanna-8413535_640.png" 
     }
 
     // retriving data from the array
